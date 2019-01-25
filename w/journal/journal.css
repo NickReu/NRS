@@ -1,0 +1,43 @@
+.toc {
+    overflow: hidden;
+}
+.col {
+    float: left;
+    width: calc(50% - 10px);
+    padding: 5px;
+}
+.toc_entry {
+    padding-bottom: 1em;
+    position: relative;
+}
+.toc_entry a:hover {
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+.name {
+    font-size:1.1em;
+}
+.dealings {
+    padding-top: 1em;
+    padding-left: 1em;
+    width: calc(100% - 2em);
+    overflow-x: auto;
+    overflow-y: visible;
+}
+.dealings table tr:not(:last-child) {
+    border-bottom: 1px double rgba(0,0,0,0.5);
+}
+.dealings table tr td {
+    padding-right: 2em;
+}
+.smudge {
+    position: absolute;
+    left: -20px;
+
+    width: 140px;
+    height: 80px;
+    opacity: 0.4;
+}
+.unmade {
+    height: 500px;
+}
+
